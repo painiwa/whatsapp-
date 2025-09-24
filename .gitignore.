@@ -1,3 +1,32 @@
+node# Dépendances Node.js
 node_modules/
-botdata.db
+
+# Fichiers de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables d'environnement
 .env
+.env.local
+.env.*.local
+
+# Bases de données / fichiers sensibles
+botdata.db
+*.sqlite
+*.sqlite3
+
+# Dossiers de build et caches
+dist/
+build/
+.cache/
+
+# Fichiers systèmes
+.DS_Store
+Thumbs.db
+
+# Certificats ou clés privées
+*.pem
+*.key
+*.crt
